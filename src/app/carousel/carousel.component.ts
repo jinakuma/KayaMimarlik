@@ -1,4 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { imageData } from './image-data';
 
 interface carouselImage {
   imageSrc: string;
@@ -13,7 +14,7 @@ interface carouselImage {
 export class CarouselComponent implements OnInit {
   constructor() {}
 
-  @Input() images: carouselImage[] = [];
+  images = imageData;
   @Input() indicators = true;
   @Input() controls = true;
   @Input() autoSlide = false;
