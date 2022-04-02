@@ -6,9 +6,9 @@ import { Component, Input, OnInit } from '@angular/core';
   styleUrls: ['./body.component.css'],
 })
 export class BodyComponent implements OnInit {
-  constructor() {} 
+  constructor() {}
 
-  @Input() collapsed = false;
+  @Input() collapsed = true;
   @Input() screenWidth = 0;
   ngOnInit(): void {}
 
