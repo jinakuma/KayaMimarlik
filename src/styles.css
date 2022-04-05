@@ -1,5 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
 
+:root{
+  --primary-color:#263238;
+  --primary-shadow-color:#8690a3;
+  --primary-text-color:#fff;
+  --background-color:#f3f7fa;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -12,12 +19,14 @@ body {
 }
 body {
   font-family: "Roboto", sans-serif;
+  background: var(--background-color);
 }
 
 .social {
   display: flex;
   justify-content: center;
   align-items: center;
+  background: var(--background-color);
 }
 
 .social a {

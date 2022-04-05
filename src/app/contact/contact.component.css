@@ -1,3 +1,23 @@
+#contact-a,
+#contact-b{
+  width:80%;
+  margin:auto;
+}
+
+h1 {
+  height: 3.2rem;
+  font-size: 2.4rem;
+  margin-bottom: 3rem;
+  border: none;
+  border-bottom: solid 1px orangered;
+}
+
+p{
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom:1rem;
+}
+
 #contact-a .text-fields {
   display: grid;
   grid-template-areas:
@@ -30,20 +50,25 @@
 }
 
 #contact-a .text-input {
-  padding: 0.5rem 0.5rem;
+  padding: 0.5rem;
 }
 
 #contact-a button[type='submit'] {
   width: 50%;
   margin-left: 25%;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   padding: 0.5rem;
+  border-radius: 15px;
+  background: var(--primary-color);
+  color:var(--primary-text-color);
+  box-shadow: 4px 4px 10px var(--primary-shadow-color);
+  margin-bottom: 5rem;
 }
 
 #contact-a button[type='submit']:hover {
   cursor: pointer;
-  background-color: orangered;
-  color: #fff;
+  background-color: var(--background-color);
+  color: #111;
 }
 
 #contact-b .contact-info {

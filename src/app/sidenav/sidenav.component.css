@@ -1,5 +1,5 @@
 .sidenav {
-  background: #263238;
+  background: var(--primary-color);
   transition: all 0.5s ease;
   position: fixed;
   z-index: 1;
@@ -7,7 +7,7 @@
   width: 5rem;
   height: 100vh;
   white-space: nowrap;
-  box-shadow: 0.063rem 0 1.25rem 0 #8690a3;
+  box-shadow: 0.063rem 0 1.25rem 0 var(--primary-shadow-color);
   transition: all 0.5s ease;
 }
 
@@ -35,7 +35,7 @@
   margin-left: 1.5rem;
   font-size: 20px;
   font-weight: 700;
-  color: #fff;
+  color: var(--primary-text-color);
 }
 
 .logo-container .btn-close {
@@ -50,7 +50,7 @@
 }
 
 .logo-container .btn-close .fa-times {
-  color: #fff;
+  color:  var(--primary-text-color);
   font-size: 24px;
 }
 

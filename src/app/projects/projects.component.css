@@ -1,3 +1,11 @@
+h1 {
+  height: 3.2rem;
+  font-size: 2.4rem;
+  margin-bottom: 3rem;
+  border: none;
+  border-bottom: solid 1px orangered;
+}
+
 .items {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
